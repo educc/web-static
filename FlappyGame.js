@@ -913,7 +913,7 @@ ApplicationMain.main = function() {
 ApplicationMain.create = function(config) {
 	var app = new openfl_display_Application();
 	ManifestResources.init(config);
-	app.meta.h["build"] = "7";
+	app.meta.h["build"] = "9";
 	app.meta.h["company"] = "Edward Cacho";
 	app.meta.h["file"] = "FlappyGame";
 	app.meta.h["name"] = "FlappyGame";
@@ -3613,7 +3613,7 @@ ManifestResources.init = function(config) {
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$flixel_$fonts_$nokiafc22_$ttf);
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$flixel_$fonts_$monsterrat_$ttf);
 	var bundle;
-	var data = "{\"name\":null,\"assets\":\"aoy4:pathy36:assets%2Fmusic%2Fmusic-goes-here.txty4:sizezy4:typey4:TEXTy2:idR1y7:preloadtgoR0y34:assets%2Fimages%2Fbird-anim.01.pngR2i1086R3y5:IMAGER5R7R6tgoR0y32:assets%2Fimages%2Fbackground.pngR2i23716R3R8R5R9R6tgoR0y32:assets%2Fimages%2Fpipe-green.pngR2i2527R3R8R5R10R6tgoR0y31:assets%2Fimages%2Fbird-anim.pngR2i340R3R8R5R11R6tgoR0y28:assets%2Fimages%2Fground.pngR2i470R3R8R5R12R6tgoR0y25:assets%2Fimages%2Fbat.pngR2i588R3R8R5R13R6tgoR0y35:assets%2Fimages%2Fbird-anim.bak.pngR2i331R3R8R5R14R6tgoR2i15670R3y5:SOUNDR5y28:assets%2Fsounds%2Fimpact.oggy9:pathGroupaR16hR6tgoR2i7728R3R15R5y26:assets%2Fsounds%2Fjump.oggR17aR18hR6tgoR2i13235R3R15R5y26:assets%2Fsounds%2Fcoin.oggR17aR19hR6tgoR2i6860R3R15R5y27:assets%2Fsounds%2Fcoin1.oggR17aR20hR6tgoR2i7453R3R15R5y29:assets%2Fsounds%2Fimpact1.oggR17aR21hR6tgoR2i8179R3R15R5y27:assets%2Fsounds%2Fjump1.oggR17aR22hR6tgoR0y34:assets%2Fdata%2Fdata-goes-here.txtR2zR3R4R5R23R6tgoR2i39706R3y5:MUSICR5y28:flixel%2Fsounds%2Fflixel.mp3R17aR25y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i2114R3R24R5y26:flixel%2Fsounds%2Fbeep.mp3R17aR27y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i5794R3R15R5R28R17aR27R28hgoR2i33629R3R15R5R26R17aR25R26hgoR2i15744R3y4:FONTy9:classNamey35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R29R30y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i519R3R8R5R35R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i3280R3R8R5R36R6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
+	var data = "{\"name\":null,\"assets\":\"aoy4:pathy36:assets%2Fmusic%2Fmusic-goes-here.txty4:sizezy4:typey4:TEXTy2:idR1y7:preloadtgoR0y34:assets%2Fimages%2Fbird-anim.01.pngR2i1086R3y5:IMAGER5R7R6tgoR0y34:assets%2Fimages%2Fgreen-dragon.pngR2i6785R3R8R5R9R6tgoR0y32:assets%2Fimages%2Fbackground.pngR2i23716R3R8R5R10R6tgoR0y32:assets%2Fimages%2Fpipe-green.pngR2i2527R3R8R5R11R6tgoR0y31:assets%2Fimages%2Fbird-anim.pngR2i340R3R8R5R12R6tgoR0y28:assets%2Fimages%2Fground.pngR2i470R3R8R5R13R6tgoR0y25:assets%2Fimages%2Fbat.pngR2i588R3R8R5R14R6tgoR0y35:assets%2Fimages%2Fbird-anim.bak.pngR2i331R3R8R5R15R6tgoR2i15670R3y5:SOUNDR5y28:assets%2Fsounds%2Fimpact.oggy9:pathGroupaR17hR6tgoR2i7728R3R16R5y26:assets%2Fsounds%2Fjump.oggR18aR19hR6tgoR2i13235R3R16R5y26:assets%2Fsounds%2Fcoin.oggR18aR20hR6tgoR2i6860R3R16R5y27:assets%2Fsounds%2Fcoin1.oggR18aR21hR6tgoR2i7453R3R16R5y29:assets%2Fsounds%2Fimpact1.oggR18aR22hR6tgoR2i8179R3R16R5y27:assets%2Fsounds%2Fjump1.oggR18aR23hR6tgoR0y34:assets%2Fdata%2Fdata-goes-here.txtR2zR3R4R5R24R6tgoR2i39706R3y5:MUSICR5y28:flixel%2Fsounds%2Fflixel.mp3R18aR26y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i2114R3R25R5y26:flixel%2Fsounds%2Fbeep.mp3R18aR28y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i5794R3R16R5R29R18aR28R29hgoR2i33629R3R16R5R27R18aR26R27hgoR2i15744R3y4:FONTy9:classNamey35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R30R31y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i519R3R8R5R36R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i3280R3R8R5R37R6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
 	var manifest = lime_utils_AssetManifest.parse(data,ManifestResources.rootPath);
 	var library = lime_utils_AssetLibrary.fromManifest(manifest);
 	lime_utils_Assets.registerLibrary("default",library);
@@ -69192,7 +69192,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 304870;
+	this.version = 460625;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
@@ -116785,7 +116785,7 @@ var states_play_sprites_BirdSprite = function(x,y) {
 	this.jumpTimer = 0;
 	this.angleDelta = 4;
 	flixel_FlxSprite.call(this,x,y);
-	this.loadGraphic("assets/images/bat.png",true,32,32);
+	this.loadGraphic("assets/images/green-dragon.png",true,44,32);
 	this.setGraphicSize(-1,32);
 	this.setAnimation();
 	this.acceleration.set_y(2000);
